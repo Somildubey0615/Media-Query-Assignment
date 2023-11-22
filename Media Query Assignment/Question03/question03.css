@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+}
+
+@media screen and (max-width:768px) {
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        background-color: gray;
+        row-gap: 20px;
+        
+    }
+    
+}

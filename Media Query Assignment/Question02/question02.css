@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image-galary {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-galary img {
+    width: 30%;
+    margin: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .image-galary img {
+        width: 45%;
+    }
+
+    /* here we have given 45% of width instead of 50% because we already gave 10% of margin to both of them */
+}
+
+@media screen and (max-width:500px) {
+    .image-galary img {
+        width: 100%;
+    }
+}
